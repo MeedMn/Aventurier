@@ -1,8 +1,8 @@
-package main.java.com.aventurier;
+package com.aventurier;
 
-import main.java.com.aventurier.application.Impl.HeroServiceImpl;
-import main.java.com.aventurier.domain.entity.Hero;
-import main.java.com.aventurier.infrastructure.FileRepository;
+import com.aventurier.application.Impl.HeroServiceImpl;
+import com.aventurier.domain.entity.Hero;
+import com.aventurier.infrastructure.FileRepository;
 
 import java.util.Scanner;
 

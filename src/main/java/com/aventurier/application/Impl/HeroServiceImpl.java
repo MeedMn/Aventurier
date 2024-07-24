@@ -1,10 +1,10 @@
-package main.java.com.aventurier.application.Impl;
+package com.aventurier.application.Impl;
 
-import main.java.com.aventurier.application.HeroService;
-import main.java.com.aventurier.domain.entity.Carte;
-import main.java.com.aventurier.domain.entity.Hero;
-import main.java.com.aventurier.domain.usecase.HeroMoveRepository;
-import main.java.com.aventurier.domain.usecase.Impl.MoveHeroImpl;
+import com.aventurier.application.HeroService;
+import com.aventurier.domain.entity.Carte;
+import com.aventurier.domain.entity.Hero;
+import com.aventurier.domain.usecase.HeroMoveRepository;
+import com.aventurier.domain.usecase.Impl.MoveHeroImpl;
 
 public class HeroServiceImpl implements HeroService {
 

@@ -1,4 +1,4 @@
-package main.java.com.aventurier.domain.entity;
+package com.aventurier.domain.entity;
 
 public class Hero {
     private int x;

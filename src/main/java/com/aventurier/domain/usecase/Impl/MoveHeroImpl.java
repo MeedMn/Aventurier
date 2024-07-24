@@ -1,8 +1,8 @@
-package main.java.com.aventurier.domain.usecase.Impl;
+package com.aventurier.domain.usecase.Impl;
 
-import main.java.com.aventurier.domain.entity.Carte;
-import main.java.com.aventurier.domain.entity.Hero;
-import main.java.com.aventurier.domain.usecase.MoveHero;
+import com.aventurier.domain.entity.Carte;
+import com.aventurier.domain.entity.Hero;
+import com.aventurier.domain.usecase.MoveHero;
 
 public class MoveHeroImpl implements MoveHero {
     @Override

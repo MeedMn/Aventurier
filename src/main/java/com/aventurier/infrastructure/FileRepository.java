@@ -1,8 +1,8 @@
-package main.java.com.aventurier.infrastructure;
+package com.aventurier.infrastructure;
 
-import main.java.com.aventurier.domain.entity.Carte;
-import main.java.com.aventurier.domain.entity.Hero;
-import main.java.com.aventurier.domain.usecase.HeroMoveRepository;
+import com.aventurier.domain.entity.Carte;
+import com.aventurier.domain.entity.Hero;
+import com.aventurier.domain.usecase.HeroMoveRepository;
 
 import java.io.IOException;
 import java.nio.file.Files;

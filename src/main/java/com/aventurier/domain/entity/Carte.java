@@ -1,10 +1,14 @@
-package main.java.com.aventurier.domain.entity;
+package com.aventurier.domain.entity;
 
 public class Carte {
     private char[][] carte;
 
     public Carte(char[][] carte) {
         this.carte = carte;
+    }
+
+    public char[][] getCarte() {
+        return carte;
     }
 
     public boolean isValid(int x, int y) {

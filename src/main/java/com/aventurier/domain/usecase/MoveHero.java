@@ -1,7 +1,7 @@
-package main.java.com.aventurier.domain.usecase;
+package com.aventurier.domain.usecase;
 
-import main.java.com.aventurier.domain.entity.Carte;
-import main.java.com.aventurier.domain.entity.Hero;
+import com.aventurier.domain.entity.Carte;
+import com.aventurier.domain.entity.Hero;
 
 public interface MoveHero {
     void move(Hero hero, Carte carte, char direction);
